@@ -1,0 +1,75 @@
+html {
+  text-align: center;
+}
+
+body {
+  width: 100%;
+  background: lightgreen;
+}
+
+h1 {
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+#title {
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#quoteArea {
+  width: 32%;
+  margin-top: 100px;
+  border: 3px solid;
+  margin: 0 auto;
+  height: 200px;
+  border-radius: 2%;
+  padding: 30px;
+  background: lightblue;
+  font-size: 1.4em;
+  box-shadow: 10px 10px 20px #888888;
+}
+
+#quote {
+  margin: 10px;
+}
+
+#btn {
+  font-size: 1.1em;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 10px 10px 20px #888888;
+  border-radius: 5px;
+  background: lightgray;
+}
+
+button {
+  text-align: center;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: orange;
+  border: 2px solid black;
+}
+
+#tweet {
+  font-size: 1.3em;
+  margin-left: 15px;
+  background: lightgray;
+  box-shadow: 10px 10px 20px #888888;
+  border-radius: 5px;
+  background: lightgray;
+}
+
+#tweet:hover {
+  background-color: orange;
+  border: 2px solid black;
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 800px) {
+        #quoteArea {
+          width: 50%;
+          font-size: 1.05em;
+        }
+}
